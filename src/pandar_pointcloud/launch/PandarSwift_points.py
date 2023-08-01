@@ -16,8 +16,8 @@ def generate_launch_description():
                 {"start_angle": 0.0},
                 {"frame_id": "PandarSwift"},
                 {"publish_model": "both_point_raw"},
-                {"calibration": "./src/HesaiLidar_Swift_ROS/pandar_pointcloud/params/PandarQT128_Correction.csv"},
-                {"firetime_file": "./src/HesaiLidar_Swift_ROS/pandar_pointcloud/params/PandarQT128_Firetimes.csv"},
+                {"calibration": "./src/pandar_pointcloud/params/PandarQT128_Correction.csv"},
+                {"firetime_file": "./src/pandar_pointcloud/params/PandarQT128_Firetimes.csv"},
                 {"coordinate_correction_flag": False}
                 # {"cert_file": "''"},
                 # {"private_key_file": "''"},
