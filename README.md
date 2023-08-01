@@ -1,7 +1,7 @@
 # ar_sensor_driver
 
 -----
-1. ArenaSDK - v0.1.68 as of 7/31/2023
+# ArenaSDK - v0.1.68 as of 7/31/2023
 
   1) Download Ubuntu 22.04 version from https://thinklucid.com/downloads-hub/
 
@@ -18,18 +18,18 @@
     This will make the Arena SDK shared library files accessible by the run-time linker (ld.so or ld-linux.so).
 
 -----
-2. ar_driver_setup
+# ar_driver_setup
 
     $ sh ar_driver_setup.sh
     
 -----
-3. build & install
+# build & install
 
     $ colcon build --symlink-install
     $ source install/setup.bash (assuming /opt/ros/humble/setup.bash is already done)
     
 -----
-4. launch
+# launch
 
   1) Triton
   
